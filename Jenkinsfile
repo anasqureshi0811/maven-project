@@ -4,7 +4,7 @@ pipeline {
     PATH = "C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\bin;${env.PATH}"
     }
     tools {
-        maven 'localMaven'
+        maven 'localMAVEN'
     }
     stages{
         stage('Build'){
